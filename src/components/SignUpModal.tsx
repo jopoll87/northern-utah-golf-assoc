@@ -12,34 +12,39 @@ const SignUpModal = () => {
     >
       <ModalHeader>Sign Up For Norther Utah Golf Association</ModalHeader>
       <ModalContent>
-        <Form>
+        <Form method='POST' action='https://formsubmit.co/991ddf3c2c7865ec251216f03891a766'>
           <FormGroup>
             <FormInput 
               id='form-input-control-first-name' 
+              type='text'
               control={Input} 
               label='First Name'
               placeholder='First Name' 
               required 
               width={8}
+              name='First Name'
             />
             <FormInput 
               id='form-input-control-last-name'
+              type='text'
               control={Input}
               label='Last Name' 
               placeholder='Last Name' 
               required 
               width={8}
+              name='Last Name'
             />
           </FormGroup>
           <FormGroup>
             <FormInput
-              id='form-input-control-error-email' 
+              id='form-input-control-error-email'
               control={Input}
               label='Email Address' 
               placeholder='johndoe@email.com' 
               required 
               width={8}
               type='email'
+              name='email'
             />
             <FormInput
               id='form-input-control-error-phone-number'
@@ -50,6 +55,7 @@ const SignUpModal = () => {
               width={8}
               type='tel'
               pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'
+              name='Phone Number'
             />
           </FormGroup>
           <Button type='submit'>Sign Up</Button>
