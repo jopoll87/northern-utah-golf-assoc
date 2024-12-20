@@ -2,7 +2,7 @@
 const Header = () => {
   return (
     <header className='header'>
-      <img src='../assets/Logo.svg' alt='Group logo' className='logo' />
+      <img src='../../public/Logo.svg' alt='Group logo' className='logo' />
     </header>
   )
 }
