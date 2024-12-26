@@ -26,11 +26,11 @@
 }
 
 #root a {
-  color: #341539;
+  color: #ce53e0;
 }
 
 #root a:hover {
-  color: #ce53e0;
+  text-decoration: underline;
 }
 
 #root li {
