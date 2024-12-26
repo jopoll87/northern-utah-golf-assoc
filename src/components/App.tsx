@@ -1,4 +1,3 @@
-import '../css/App.css';
 import Header from './Header';
 import IntroMessage from './IntroMessage';
 import SignUpModal from './SignUpModal';
