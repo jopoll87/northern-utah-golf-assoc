@@ -1,4 +1,4 @@
-@import"https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin";.logo{height:30rem}#root{width:720px;margin:0 auto;padding-bottom:30px;text-align:center}#root h1{font-size:42px}#root h2{font-size:32px}#root h3{font-size:22px}#root p,li{font-size:1.2rem}#root a{color:#341539}#root a:hover{color:#ce53e0}#root li{margin:15px}@media (max-width: 700px){.logo{height:16rem}#root{width:300px}#root h1{font-size:25px}#root h2{font-size:20px}#root h3{font-size:18px}#root p,li{font-size:1rem}}/*!
+@import"https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin";.logo{height:30rem}#root{width:720px;margin:0 auto;padding-bottom:30px;text-align:center}#root h1{font-size:42px}#root h2{font-size:32px}#root h3{font-size:22px}#root p,li{font-size:1.2rem}#root a{color:#ce53e0}#root a:hover{text-decoration:underline}#root li{margin:15px}@media (max-width: 700px){.logo{height:16rem}#root{width:300px}#root h1{font-size:25px}#root h2{font-size:20px}#root h3{font-size:18px}#root p,li{font-size:1rem}}/*!
 * # Semantic UI 2.5.0 - Reset
 * http://github.com/semantic-org/semantic-ui/
 *
