@@ -54,7 +54,8 @@ const SignUpModal = () => {
               required 
               width={8}
               type='tel'
-              pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'
+              maxLength={10}
+              minLength={10}
               name='Phone Number'
             />
           </FormGroup>
