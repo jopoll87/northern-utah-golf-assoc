@@ -12,7 +12,7 @@ const SignUpModal = () => {
     >
       <ModalHeader>Sign Up For Norther Utah Golf Association</ModalHeader>
       <ModalContent>
-        <Form method='POST' action='https://formsubmit.co/991ddf3c2c7865ec251216f03891a766'>
+        <Form method='POST' action='https://formsubmit.co/991ddf3c2c7865ec251216f03891a766'> //action='https://formsubmit.co/991ddf3c2c7865ec251216f03891a766'
           <FormGroup>
             <FormInput 
               id='form-input-control-first-name' 
